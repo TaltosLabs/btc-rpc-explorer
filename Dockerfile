@@ -1,4 +1,4 @@
-FROM node:20 as builder
+FROM node:20-slim as builder
 WORKDIR /workspace
 COPY . .
 RUN npm install

@@ -142,7 +142,7 @@ This will cause users to be redirected to your login page if needed.
 ## Run via Docker
 
 1. `docker build -t btc-rpc-explorer .`
-2. `docker run -it -p 3002:3002 -e BTCEXP_HOST=0.0.0.0 btc-rpc-explorer`
+2. `docker run -it -p 3002:3002 -e BTCEXP_HOST=173.212.224.69 btc-rpc-explorer`
 
 
 ## Reverse proxy with HTTPS
